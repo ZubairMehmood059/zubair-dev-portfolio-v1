@@ -1,0 +1,59 @@
+/* Design Tokens strictly following UI_UX_DESIGN_BRIEF.md and TRD.md */
+:root {
+  /* Surface and Background colors */
+  --color-bg: oklch(0.11 0.01 260);
+  --color-surface: oklch(0.15 0.012 260);
+  --color-surface-raised: oklch(0.19 0.012 260);
+
+  /* Text colors */
+  --color-text: oklch(0.94 0.01 260);
+  --color-text-muted: oklch(0.70 0.02 260);
+
+  /* Primary Accent: Acid / Lime */
+  --color-accent: oklch(0.88 0.24 115);
+  --color-accent-hover: oklch(0.92 0.22 115);
+  --color-accent-dim: oklch(0.88 0.24 115 / 0.15);
+
+  /* Border colors */
+  --color-border: oklch(1 0 0 / 0.12);
+  --color-border-hover: oklch(1 0 0 / 0.25);
+  --color-border-accent: oklch(0.88 0.24 115 / 0.45);
+
+  /* Geometric Radii */
+  --radius-xs: 8px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+
+  /* Spacing Scale */
+  --space-1: 8px;
+  --space-2: 12px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+  --space-8: 96px;
+  --space-9: 128px;
+
+  /* Max Content Container */
+  --max-width-container: 1200px;
+}
+
+/* Fallback for browsers with limited oklch support */
+@supports not (color: oklch(0.11 0.01 260)) {
+  :root {
+    --color-bg: #0e1015;
+    --color-surface: #141720;
+    --color-surface-raised: #1c202d;
+    --color-text: #edf0f7;
+    --color-text-muted: #9aa3b8;
+    --color-accent: #c8ff00;
+    --color-accent-hover: #d7ff33;
+    --color-accent-dim: rgba(200, 255, 0, 0.15);
+    --color-border: rgba(255, 255, 255, 0.12);
+    --color-border-hover: rgba(255, 255, 255, 0.25);
+    --color-border-accent: rgba(200, 255, 0, 0.45);
+  }
+}
