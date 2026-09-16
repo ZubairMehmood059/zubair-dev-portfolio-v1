@@ -15,7 +15,7 @@ const NAV_ITEMS = [
   { href: '#contact', label: 'Contact' },
 ];
 
-export const Navbar: React.FC = () => {
+export const Navbar: React.FC = () => { //fix mobile menu
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const menuTriggerRef = useRef<HTMLButtonElement>(null);
