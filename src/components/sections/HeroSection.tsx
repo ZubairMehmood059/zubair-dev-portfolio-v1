@@ -63,7 +63,7 @@ export const HeroSection: React.FC = () => {
               </h1>
               <p className="text-lg sm:text-xl text-primary-muted max-w-2xl font-normal leading-relaxed pt-2">
                 Hi, I'm <strong className="text-primary-text font-semibold">Zubair Mehmood</strong>.
-                I engineer resilient full-stack applications, high-performance backend systems with
+                I engineer resilient full-stack applications, backend systems and APIs with
                 Python & FastAPI, and practical AI-powered experiences with clean, maintainable
                 architecture.
               </p>
@@ -209,7 +209,7 @@ export const HeroSection: React.FC = () => {
                   </div>
                   <div>
                     <span className="font-mono text-[11px] font-bold text-primary-text block">
-                      Production Mindset
+                      Engineering Mindset
                     </span>
                     <span className="text-[11px] text-primary-muted block">
                       Clean architecture over shortcuts

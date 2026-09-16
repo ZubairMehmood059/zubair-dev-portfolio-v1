@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from '../ui/Container';
 import { SectionHeading } from '../ui/SectionHeading';
 import { Card } from '../ui/Card';
+import { ProfilePhoto } from '../ui/ProfilePhoto';
 import { Code2, Compass, Cpu, CheckCircle2 } from 'lucide-react';
 
 export const AboutSection: React.FC = () => {
@@ -32,7 +33,7 @@ export const AboutSection: React.FC = () => {
 
             <p>
               My engineering approach is rooted in understanding full-stack lifecycles: from
-              crafting deterministic relational schemas in PostgreSQL and writing high-throughput
+              crafting deterministic relational schemas in PostgreSQL and writing structured
               asynchronous APIs with Python & FastAPI, to constructing responsive, accessible
               interfaces using React and TypeScript.
             </p>
@@ -73,7 +74,10 @@ export const AboutSection: React.FC = () => {
           </div>
 
           {/* Quick Facts / Mindset Column */}
-          <div className="lg:col-span-5 space-y-4">
+          <div className="lg:col-span-5 space-y-5">
+            {/* Real Profile Photo with graceful fallback */}
+            <ProfilePhoto className="w-full max-w-xs mx-auto lg:max-w-none" />
+
             <Card className="bg-surface border-border p-6 space-y-5">
               <h3 className="font-mono text-xs uppercase text-accent font-bold tracking-wider flex items-center gap-2">
                 <Compass className="w-4 h-4 text-accent" />

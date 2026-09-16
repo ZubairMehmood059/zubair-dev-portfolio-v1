@@ -9,7 +9,7 @@ export const capabilitiesData: CapabilityItem[] = [
       'Translating user requirements into cohesive full-stack web applications. Connecting performant TypeScript frontends with resilient Python backends and structured relational databases.',
     iconName: 'Layers',
     deliverables: [
-      'Full-stack architecture from zero to production',
+      'Full-stack architecture from concept to deployed product',
       'Reactive state management & data fetching',
       'Structured database design and migrations',
       'Complete responsive multi-device support',
@@ -19,7 +19,7 @@ export const capabilitiesData: CapabilityItem[] = [
   {
     id: 'backend',
     title: 'Backend Systems & API Architecture',
-    tagline: 'High-throughput, deterministic REST APIs built with FastAPI & Python.',
+    tagline: 'Structured, deterministic REST APIs built with FastAPI & Python.',
     description:
       'Developing secure, documented server-side architectures. Implementing strict request validation with Pydantic, controlled CORS policies, rate limiting, and defensive error handling.',
     iconName: 'Server',

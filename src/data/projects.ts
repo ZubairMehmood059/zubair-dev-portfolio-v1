@@ -65,15 +65,15 @@ export const projectsData: Project[] = [
     slug: 'digital-legacy-system',
     title: 'Digital Legacy & Inheritance System',
     category: 'Backend Systems',
-    tagline: 'Cryptographically secured digital asset succession architecture',
+    tagline: 'Digital asset succession & credential custody architecture',
     summary:
-      'A fault-tolerant digital inheritance platform designed to ensure secure verification, custody, and transfer of digital credentials to verified beneficiaries.',
+      'A digital inheritance architecture designed to explore scheduled verification, custody, and transfer of digital credentials to designated beneficiaries.',
     problem:
       'When an individual passes away or faces incapacitation, critical digital accounts, legal archives, and cryptographic assets are frequently lost permanently.',
     solution:
       'Designed a multi-factor heartbeat check system combined with time-locked credential escrow and automated beneficiary verification workflows.',
     technologies: ['Python', 'FastAPI', 'Cryptography', 'PostgreSQL', 'Docker'],
-    status: 'Operational',
+    status: 'Completed',
     featured: true,
     repoUrl: 'https://github.com/ZubairMehmood059/digital-inheritance-system',
     architecturalHighlights: [
@@ -103,7 +103,7 @@ export const projectsData: Project[] = [
     solution:
       'Integrated LLM API pipelines with structured prompt chaining, semantic scoring, and interactive interview question generations with real-time candidate critique.',
     technologies: ['Python', 'FastAPI', 'OpenAI API', 'React', 'Tailwind CSS', 'Pydantic'],
-    status: 'Production Ready',
+    status: 'In Active Development',
     featured: true,
     repoUrl: 'https://github.com/ZubairMehmood059/ai-career-copilot',
     architecturalHighlights: [

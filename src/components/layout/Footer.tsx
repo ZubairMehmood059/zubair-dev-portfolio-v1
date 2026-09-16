@@ -92,7 +92,7 @@ export const Footer: React.FC = () => {
               </a>
 
               <a
-                href="itszayn1379@gmail.com"
+                href={`mailto:${siteConfig.email}`}
                 aria-label="Zubair Mehmood Email"
                 className="p-2.5 rounded-sm bg-surface border border-border hover:border-accent hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
               >
